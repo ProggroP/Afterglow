@@ -59,3 +59,8 @@ The repository can also be imported into CloudPebble as is.
 ### 1.0.0
 
 First release.
+
+## License
+
+MIT License, see [LICENSE](LICENSE). The bundled fonts are not covered by it and
+remain under their own licenses.
