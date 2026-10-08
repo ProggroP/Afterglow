@@ -1,0 +1,38 @@
+{
+    "author": "Axel Kark",
+    "dependencies": {
+        "@rebble/clay": "1.0.8"
+    },
+    "keywords": [
+        "pebble-app",
+        "watchface",
+        "afterglow"
+    ],
+    "name": "afterglow",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "Afterglow",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "backgroundColor",
+            "pointerColor",
+            "use24Hour"
+        ],
+        "projectType": "moddable",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "emery",
+            "gabbro"
+        ],
+        "uuid": "e046a221-d168-4870-8b2f-3fb4d5826501",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "type": "heading",
+    "defaultValue": "Afterglow"
+  },
+  {
+    "type": "text",
+    "defaultValue": "The hour as one large numeral. A minute hand sweeps clockwise from twelve, leaving a trail of minute marks behind it &mdash; and the part of the numeral it has already swept past is dimmed. At the top of the hour everything resets."
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Colours"
+      },
+      {
+        "type": "color",
+        "sunlight": false,
+        "messageKey": "backgroundColor",
+        "label": "Background",
+        "defaultValue": "0x000000"
+      },
+      {
+        "type": "color",
+        "sunlight": false,
+        "messageKey": "pointerColor",
+        "label": "Hand, marks and numeral",
+        "defaultValue": "0xFFFFFF"
+      },
+      {
+        "type": "text",
+        "defaultValue": "The dimmed part of the numeral is not a separate setting: it is mixed from the two colours above. Pebble renders only four levels per colour channel, so pick two colours with plenty of contrast &mdash; otherwise the dimmed segment collapses into the background and the effect is lost."
+      }
+    ]
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Time format"
+      },
+      {
+        "type": "toggle",
+        "messageKey": "use24Hour",
+        "label": "24-hour clock",
+        "defaultValue": true,
+        "description": "Off shows the hour as 1 to 12. Either way the hour is shown without a leading zero."
+      }
+    ]
+  },
+  {
+    "type": "submit",
+    "defaultValue": "Save"
+  }
+]
